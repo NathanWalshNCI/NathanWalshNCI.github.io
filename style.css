@@ -1,36 +1,19 @@
 
-* { margin: 0; padding: 0; }
-a{ text-decoration: none; color: white;}
-
-/*
-#4BFFA5
-#0C0C0C Black
-#B1B1B1
-#FFFFFF
-*/
-
-
-
 body{
 	background: #212834;	
 	color: white;
 	font-family: Helvetica;
 }
 
-#header{
-	background: hsl(197, 96%, 39%);
-	color: white;
+.container-fluid{
+	padding-top: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
 
-	height: 220px;
-}
-
-#name, #links{
-	text-align: left;
 }
 
 #name{
 	color: hsl(197, 96%, 39%);
-
 }
 
 li{
@@ -40,27 +23,10 @@ li{
 }
 
 
-#links{
-		display: flex;
-		flex-direction: column;
-		justify-content: left;
-		padding-left: 2%;	
-}
-
-
 
 #name h1{
 	width: 10%;
-}
-
-#name, #title{
-	padding-left: 2%;
-	padding-top: 2%;
-}
-
-#title{
-	background: #212834; 
-	width: 600px;
+	font-size: 100px;
 }
 
 
@@ -68,46 +34,23 @@ li{
 ul{
 	list-style-position: inside;
 	list-style-type: circle;
+	padding-left: 0px;
 }
-
-h1{
-	font-size: 100px;
-}
-
 
 
 #title h2{
 	font-size: 80px;
 	opacity: 0.6;
-	text-align: left;
-
 }
+
 
 #links{
-	font-size: 14px;
-	
-}
-
-#links>h2{
 	margin-bottom: 4px;
 	opacity: 0.6;
 }
 
-#three_column{
-	
-	display: flex;
-	padding-left: 2%;
-	flex-wrap: wrap;
-	width: 100%;
-}
 
-@media (min-width: 48em) {
-#three_column {
-    flex-wrap: nowrap;
-  }
-
-#three_column div{
-	flex: 4;
+#three_column div{	
 	text-align: left;
 	padding-top: 6%;
 	padding-bottom: 6%;
@@ -120,4 +63,3 @@ h1{
 	padding-bottom: 6%;
 	color: hsl(197, 96%, 39%);
 }
-

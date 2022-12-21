@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<title></title>
+</head>
+<body onload='document.form.email.focus()'>	
+	<div class="top"></div>
+
+	<div class="content_frame">
+
+	  <div class="navigation_container">
+	  <div class="header_logo">
+	  		<a class="logo_link" href="index.html">		   
+			<h1 class="dark_shadows">"DARK SHADOWS"</h1>
+			</a>
+			<h2 class="sub_heading">A Film Noir Resource</h2>	  
+	  </div>
+
+	  <div class="nav_menu">	   
+	      <a class="menu-link" href="index.html">Home</a>
+	      <a class="menu-link" href="about.html">About Noir</a>
+	      <a class="menu-link" href="films.html">Films</a>
+	      <a class="menu-link" href="contribute.html">Contribute</a>   
+	  </div>
+	</div>
+		
+	  <div class="slide">
+	  	<img class="welles" src="images\noir\tunnel2.jpg" alt="" />
+	  </div>
+
+	  <div class="content_container">
+	  <div class="content">
+	  	<div class="page_title">
+	  		<h1>CONTRIBUTE</h1>	
+	  	</div>
+	  	<div class="content_para">
+
+	  		<div class="film">
+		  		<div class="film_details">
+			  		<div class="film_name">
+			  		<h2 class="form_text">IF YOU HAVE AN IDEA, WE'D LOVE TO HEAR FROM YOU!</h2>
+			  		</div>	
+		  		</div>		  		
+		  		<form class="form" name="form">
+
+				  <div class="form-input">
+				    <label class="label">Name</label>
+				    <input class="input-control" />
+				  </div>
+
+				 <div class="form-input">
+				    <label class="label">Email Address</label>
+				    <input class="email" type='text' name='email' />
+				  </div>
+
+				  <div class="form-input">
+				    <label class="label">Idea</label>
+				    <textarea class="input-control idea" /></textarea>
+				  </div>
+
+				  <div class="form-input">
+				    <input type="submit" name="submit" value="Submit" class="submit" onclick="ValidateEmail( document.form.email )"/>
+				  </div>
+				</form>
+		  	</div> 
+
+		 </div><!-- content_para -->
+	  </div><!-- content -->
+	</div><!-- content_container -->
+
+	</div><!-- content_frame -->
+
+	<div class="bottom"></div>	
+		<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
